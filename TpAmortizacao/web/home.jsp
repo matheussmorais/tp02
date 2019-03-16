@@ -7,11 +7,12 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+    <%@include file="WEB-INF/jspf/estilo.jspf" %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>TP 02 - Amortização</title>
     </head>
-    <body>
+    <body> 
         <%@include file="WEB-INF/jspf/menu.jspf" %>
         <br>
         <h1> A aplicação realiza cálculos de amortização americana, constante e constrói a tabela price.</h1>
