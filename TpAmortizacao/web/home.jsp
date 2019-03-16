@@ -19,6 +19,20 @@
         <h3> Felipe Venâncio </h3>
         <h3> Matheus da Silva Morais </h3>
         <br>
-        
+        <h2>
+            <a href="amortizacao-americana.jsp">
+                Ir para a Amortização Americana
+            </a>
+        </h2>
+        <h2>
+            <a href="amortizacao-constante.jsp">
+               Ir para a Amortização Constante
+            </a>
+        </h2>
+        <h2>
+            <a href="tabela-price.jsp">
+                Ir para a Tabela Price 
+            </a>
+        </h2>
     </body>
 </html>
