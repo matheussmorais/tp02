@@ -12,6 +12,11 @@
         <title>Tabela Price</title>
     </head>
     <body>
+        <%@include file="WEB-INF/jspf/menu.jspf" %>
         <h1>Tabela Price: </h1>
     </body>
+    <br>
+    <br>
+    <br>
+    <%@include file="WEB-INF/jspf/rodape.jspf" %>
 </html>

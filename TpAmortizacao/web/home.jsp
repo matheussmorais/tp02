@@ -12,6 +12,8 @@
         <title>TP 02 - Amortização</title>
     </head>
     <body>
+        <%@include file="WEB-INF/jspf/menu.jspf" %>
+        <br>
         <h1> A aplicação realiza cálculos de amortização americana, constante e constrói a tabela price.</h1>
         <br>
         <h2> Integrantes: </h2>
@@ -35,4 +37,8 @@
             </a>
         </h2>
     </body>
+    <br>
+    <br>
+    <br>
+    <%@include file="WEB-INF/jspf/rodape.jspf" %>   
 </html>
