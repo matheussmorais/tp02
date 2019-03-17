@@ -7,8 +7,8 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <%@include file="WEB-INF/jspf/estilo.jspf" %>
-    <head>
+    <head>  
+        <%@include file="WEB-INF/jspf/estilo.jspf" %>   
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Tabela Price</title>
     </head>
