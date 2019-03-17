@@ -7,36 +7,34 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <%@include file="WEB-INF/jspf/estilo.jspf" %>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>TP 02 - Amortização</title>
+        <title style="padding-left: 20px">TP 02 - Amortização</title>
     </head>
     <body> 
         <%@include file="WEB-INF/jspf/menu.jspf" %>
         <br>
-        <h1> A aplicação realiza cálculos de amortização americana, constante e constrói a tabela price.</h1>
         <br>
-        <h2> Integrantes: </h2>
+        <h1 style="padding-left: 20px"> <center> A aplicação realiza cálculos de amortização americana, constante e constrói a tabela price.</center> </h1>
         <br>
-        <h3> Felipe Venâncio </h3>
-        <h3> Matheus da Silva Morais </h3>
         <br>
-        <h2>
-            <a href="amortizacao-americana.jsp">
-                Ir para a Amortização Americana
-            </a>
-        </h2>
-        <h2>
-            <a href="amortizacao-constante.jsp">
-               Ir para a Amortização Constante
-            </a>
-        </h2>
-        <h2>
-            <a href="tabela-price.jsp">
-                Ir para a Tabela Price 
-            </a>
-        </h2>
+        <br>
+        <h2  style="padding-left: 20px"><center> Integrantes:</center></h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4 style="padding-left: 20px"><center> Matheus da Silva Morais</center></h4>
+        <h4 style="padding-left: 20px"><center> Felipe Venâncio</center></h4>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
     </body>
     <br>
     <br>
