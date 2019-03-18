@@ -21,13 +21,13 @@
         <h1>Tabela Price: </h1>
         <div id ="divCenter">
             <form id="frmPost" action="">
-                Capital:<input type="number" name="c"/>
+                Capital:<input type="number" name="c" placeholder="Digite o capital."/>
                 <br>
                 <br>
-                Parcelas:<input type="number" name="n"/>
+                Parcelas:<input type="number" name="n" placeholder="Digite o n° de parcelas."/>
                 <br>
                 <br>
-                Taxa mensal:<input type="number" name="i"/>
+                Taxa mensal:<input type="number" name="i" placeholder="Digite a taxa de juros."/>
                 <br>
                 <br>
                 <button class="btn btn-primary" name="form" type="submit">Calcular</button>
@@ -68,23 +68,32 @@
 <%for (int cria = 0; cria <= n; cria++) {%>
 <%
 
-    double a, j, dc, pr;
-    int ct, cn;
+    double a, j, dc, pr,p1,p2,p3,pd;
+    
     dc = 0;
     a = 0;
     j = 0;
     pr = 0;
+    
     if (cria <= 0) {
         dc = c;
-        a = cc / n;
         j = ((i / 100)) * c;
-        pr = cc/(1+Math.pow(i, n))/(1+Math.pow(i, n))*i;
+        p1 = (1+(i/100));
+        p2 = Math.pow(p1, n)-1;
+        p3 = Math.pow(p1, n)*(i/100);
+        pd = p2/p3;
+        pr = cc / pd;
+        a = pr - j ;
     } else {
         j = ((i / 100)) * c;
         sj = sj + j;
-        a = cc / n;
+        p1 = (1+(i/100));
+        p2 = Math.pow(p1, n)-1;
+        p3 = Math.pow(p1, n)*(i/100);
+        pd = p2/p3;
+        pr = cc / pd;
+        a = pr - j ;
         sa = sa + a;
-        pr = cc/(1+Math.pow(i, n))/(1+Math.pow(i, n))*i;
         sp = sp + pr;
     }
 %>
